@@ -2,12 +2,13 @@ import { initializeApp } from "firebase/app";
 import {getAuth} from "firebase/auth"; 
 
 const firebaseConfig = {
-    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    projectId: import.meta.env.VITE_FIREBASE_PROJECTID,
-    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-    messagingSenderId:import.meta.env.VITE_FIREBASE_MESAGING_SENDER_ID,
-    appId: import.meta.env.APP_ID
+    apiKey: "AIzaSyDlZC-YvhfSTF-eHzKnWRVrwgduobEJW0s",
+    authDomain: "malayalamsongs-5916d.firebaseapp.com",
+    projectId: "malayalamsongs-5916d",
+    storageBucket: i"malayalamsongs-5916d.firebasestorage.app",
+    messagingSenderId:"44232575519",
+    appId: "1:44232575519:web:392711e715c2f26d7d232a
+    measurementId: "G-QG2EK6YKDF"
 };
 
 // Initialize Firebase
